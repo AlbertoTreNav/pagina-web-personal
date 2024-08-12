@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     margin: 0;
@@ -13,7 +13,7 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .profile {
@@ -24,20 +24,24 @@ body {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    margin-bottom: 20px;
 }
 
 h1 {
     margin: 20px 0 10px;
-    font-size: 24px;
+    font-size: 28px;
+    color: #007BFF;
 }
 
 p {
     color: #666;
+    font-size: 18px;
 }
 
 .links {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 .link-btn {
@@ -49,6 +53,7 @@ p {
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
+    transition: background-color 0.3s ease;
 }
 
 .link-btn:hover {
